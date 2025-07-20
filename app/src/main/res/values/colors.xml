@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_pastel">#FFFFFF</color>
+    <color name="primary_purple">#BB86FC</color>
+    <color name="text_primary">#333333</color>
+    <color name="hint_text">#888888</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="bottom_nav">#EAEAEA</color>
+    <color name="white">#FFFFFF</color>
+</resources>

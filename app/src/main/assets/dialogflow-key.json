@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mentalhealthchatbot-60e859d1",
+  "private_key_id": "bb9072c2edeb8f05421ac0a139097fe7ddc502d5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDOkN9dRGIknaNa\ncX6CLdrqXkZSMT3pzPr0vFPiTHa+LIiLUV1KYIduT2CokeZtVxagD6guVixMtyH3\n3UV5Jj/yYB7R74Iwv/jtWFqjFQyd9h2jVVzPtP3IPqG1cbi7OYLxhDz3ErUkms3H\nZpunK0T4aqwLyH8wEJI3wcKU+Fuv69B0ycTClEH+2bpnzA7qp/2g5nlEovfXAF+E\nnQ/BsRg6IzO/chcJZ0N7d7pnZpeJX/pqUDorrmE5VoNqsU0JrMl2LTbF8CErwKzC\n/WkBgelFdl/HWTXgtxQOwAirUlXx3gBRoyVZ+R+sk9FKgkXXPzG3OEOeJ7V6YdkY\noM3UesqxAgMBAAECggEAIT+0Fv+cVSzN2o99H6LA43Y+7G5CUHaZiGN4lGretsKq\nodN8EtjnGQw20JCsyI8QNGhWF6Ca6yg+aUwDqY9MvgyBuXn1+IyAmreHiKDT5z3H\nzH6/fIFd/hQyvua/UjIyJQI2Nptww85qbqenSJOlkN90B5uDTsRuvKx3+mGK5I25\nVo9rFSmqvdjN+qEdlwj6JCQBeJzZzQvHI/zevrwx/arM5zZQoXWymDqOqz4XIfoj\nIx8NPu2/YAdddHWEUi+BO1Z9xAmq78xwqDorEnxHS+BAEcaKbAzv8toCPDP+oprx\nh6xH+DTaH5ufm2MugLLyegb4ILKNIVBgMJM8ePR7zwKBgQD7j0vdGqEU9xKdymTs\nEBRVdW5AnS5hoVqI8qxJqLujQkQgZAs1xA0EJpgePZL9uYplAEuG1Q9J1tNdFOOP\nJnEPVpgembsWTu+GrczTT2jhilWcpF1dBoRcvDzcQc3ABQvTwj+LMHk+DIIBNdEi\nWE2MSEbKIOQarDec5lab7XdWHwKBgQDSNkQWNmCWO3GDrdFkhxbBxhknBDVUfXN8\nRjMWu9buJWxxj7f0ktQZpR3DWFN11CfTTsK+PDbBZnt+Wgj8SLf1Fy4jexzJf06U\nVjM8HlMujE486MQZNo/THlIkShO7F+D2UW/uVANyYqhA6TZ0Of/gDKzM2q8MObql\ndunm7PClLwKBgQCW3bGZwMaqVCMODrvH9zy6o9qjVaDjXGl3iFJbOp6NoshIxLcU\nX6eOvbatLDBjikq9mBeznUO1/Oh2AnkW+O8FS+GfOINDNcPg+YrFj/JOkTAW6Vw0\n1hu7ogi975j9eAlHzk9dooyT8dxl7WinOF4Jq68IugETHgWcS2fVy+yt8QKBgCvT\nEmjLF2HarLS2JSRfIXhuc0n2D6Q4rz3maLpBmPJ3LN+UBdbgUYWzLbxPCr9S5qag\nEeuVJBk342EZJixqgKeBGKZfAUZk2x4DxpSvAcp/h8QdBtz2yg9Kj/du1iQ4Ozc/\nDSXTsBBFzywRMsASY2zzV4cxxDK5Slc6rlLtbNITAoGBAPcrMVWPyMspIpwiniL3\nJhop27gvnaHh0Fd5BSfXmcmLCiF4sSS/U5as1nmL2QVVFh4eBWTfXWzaAZI4tK7G\n9z+1a5vYSBo+L1OVp/AJVGnYrGYwTnRxY03MrakyTeh1/+skM4nU6rbrdO+3sCys\n0B61I0KIvBeOBbzMD8x3Z65U\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@mentalhealthchatbot-60e859d1.iam.gserviceaccount.com",
+  "client_id": "108664471498224236314",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40mentalhealthchatbot-60e859d1.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.virtual">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Virtual">
+
+        <activity
+            android:name=".IntroActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".WelcomeActivity" android:exported="false"/>
+
+        <activity android:name=".LgActivity" />
+
+
+        <activity android:name=".HomeActivity" android:exported="false"/>
+
+        <activity android:name=".DashActivity" />
+
+        <activity android:name=".MoodActivity" />
+        <activity android:name=".JournalActivity" />
+        <activity android:name=".MentalHealthChatActivity" />
+        <activity android:name=".DailyAgendaActivity" />
+        <activity android:name=".CalendarActivity" />
+        <activity android:name=".CheckinActivity" />
+
+
+
+
+
+
+
+
+
+
+    </application>
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_bg"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleJournal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📝 My Journal"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#4A148C"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Lined Notebook Style Box -->
+    <EditText
+        android:id="@+id/editJournal"
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:layout_below="@id/titleJournal"
+        android:layout_marginTop="16dp"
+        android:hint="Write your thoughts here..."
+        android:background="@drawable/lined_notebook_background"
+        android:gravity="top|start"
+        android:padding="18dp"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textCursorDrawable="@null" />
+
+    <!-- Past Entries Label -->
+    <TextView
+        android:id="@+id/textPastEntries"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📚 Past Entries"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#6A1B9A"
+        android:layout_below="@id/editJournal"
+        android:layout_marginTop="20dp" />
+
+    <!-- Scrollable Past Entries -->
+    <ScrollView
+        android:id="@+id/scrollPast"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_below="@id/textPastEntries"
+        android:layout_above="@+id/buttonSave"
+        android:layout_marginTop="10dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/entryList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💾 Save Entry"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7B1FA2"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
+

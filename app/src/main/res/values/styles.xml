@@ -1,0 +1,18 @@
+<resources>
+    <style name="CustomDatePickerTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- 📅 Calendar Dates (days) -->
+        <item name="android:textColorPrimary">#C2185B</item> <!-- Dark pink -->
+
+        <!-- 🪧 Header Month/Year -->
+        <item name="android:textColorSecondary">#C2185B</item> <!-- Soft purple -->
+
+        <!-- 🟣 Selected Date Circle -->
+        <item name="colorAccent">#FFC1CC</item> <!-- Soft pink -->
+        <item name="android:colorControlActivated">#D8BFD8</item>
+        <item name="android:colorControlHighlight">#C2185B</item>
+
+        <!-- 🔘 Dialog Button Background -->
+        <item name="android:colorButtonNormal">#C2185B</item> <!-- very light pink -->
+    </style>
+</resources>
+

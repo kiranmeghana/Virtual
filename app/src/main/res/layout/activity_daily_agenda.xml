@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinky_bg"
+    tools:context=".DailyAgendaActivity">
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:theme="@style/CustomDatePickerTheme" />
+
+
+
+
+    <EditText
+        android:id="@+id/editTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePicker"
+        android:layout_margin="16dp"
+        android:hint="Enter task..."
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:background="@drawable/edittext_border" />
+
+
+    <Button
+        android:id="@+id/btnAddTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_below="@id/editTask"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="#6C63FF"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddTask"
+        android:layout_above="@id/bottomBar"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/taskListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/bottomBar"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#ECECEC"
+        android:text="🎯 Agenda Tracker"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+</RelativeLayout>
+
